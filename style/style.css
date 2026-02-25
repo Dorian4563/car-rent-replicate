@@ -365,3 +365,124 @@ main > section:first-of-type img {
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  nav {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  nav input {
+    width: 100%;
+  }
+
+  .booking-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card-body {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .switch-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  section header {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  section header h3 {
+    font-size: 18px;
+  }
+
+  section section {
+    flex-direction: column;
+  }
+
+  article {
+    padding: 14px;
+  }
+
+  article h4 {
+    font-size: 15px;
+  }
+
+  article p {
+    font-size: 12px;
+  }
+
+  article footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  article footer button {
+    width: 100%;
+  }
+
+  main > section:first-of-type article {
+    padding: 22px;
+  }
+
+  main > section:first-of-type h2 {
+    font-size: 20px;
+  }
+
+  main > section:first-of-type p {
+    font-size: 13px;
+  }
+
+  main > section:first-of-type img {
+    position: static;
+    width: 160px;
+    margin-top: 15px;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  footer ul {
+    padding: 0;
+  }
+
+  footer > p {
+    margin-top: 20px;
+  }
+
+  main > button {
+    width: 100%;
+    padding: 14px;
+  }
+}
