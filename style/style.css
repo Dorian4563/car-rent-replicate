@@ -365,8 +365,10 @@ main > section:first-of-type img {
     grid-template-columns: 1fr 1fr;
   }
 }
+/* 📱 Mobile Responsiveness (Phones) */
 @media (max-width: 600px) {
 
+  /* Header */
   header {
     flex-direction: column;
     gap: 15px;
@@ -378,6 +380,7 @@ main > section:first-of-type img {
     font-size: 22px;
   }
 
+  /* Navigation */
   nav {
     flex-direction: column;
     width: 100%;
