@@ -487,3 +487,66 @@ main > section:first-of-type img {
     padding: 14px;
   }
 }
+/* 📱 Mobile: Left-Aligned Layout */
+@media (max-width: 600px) {
+
+  body {
+    text-align: left;
+  }
+
+  /* Header */
+  header {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  nav {
+    align-items: flex-start;
+  }
+
+  /* Main Content */
+  main {
+    margin: 15px 0;
+    padding: 0 15px;
+  }
+
+  /* Booking Cards */
+  .booking-container {
+    align-items: stretch;
+  }
+
+  .card {
+    text-align: left;
+  }
+
+  /* Section Headers */
+  section header {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  article {
+    text-align: left;
+  }
+
+  article footer {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  footer {
+    text-align: left;
+    justify-items: start;
+  }
+
+  footer > div,
+  footer ul {
+    text-align: left;
+  }
+
+  main > button,
+  article footer button {
+    text-align: center;
+  }
+}
+
