@@ -231,7 +231,6 @@ article > div {
 
 article > img {
   width: 100%;
-  height: 50px;
   object-fit: contain;
   margin: 10px 0;
 }
@@ -315,11 +314,11 @@ main > section:first-of-type article {
 }
 
 main > section:first-of-type article:first-child {
-  background: linear-gradient(135deg, #3563e9, #1a3fd3);
+  background: linear-gradient(135deg,  #54a6ff, #1a3fd3);
 }
 
 main > section:first-of-type article:last-child {
-  background: linear-gradient(135deg, #54a6ff, #3563e9);
+  background: linear-gradient(135deg,  #1a3fd3, #3563e9);
 }
 
 main > section:first-of-type h2 {
